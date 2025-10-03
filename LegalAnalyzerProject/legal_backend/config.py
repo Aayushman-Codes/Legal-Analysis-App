@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 HF_API_URL = "https://api-inference.huggingface.co/models/"
-HF_TOKEN = os.getenv("HF_TOKEN", "yourhuggingfacetokenhere")
+HF_TOKEN = os.getenv("HF_TOKEN", "insertyourhuggingfacetokenhere")
 
 LEGAL_MODELS = {
     "classification": "law-ai/InLegalBERT",
